@@ -3,4 +3,5 @@ namespace TaskManagerPro;
     { 
         string Title {get; }
         void Complete();
+        void Display();
     }
