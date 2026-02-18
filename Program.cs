@@ -4,6 +4,7 @@ var tasks = new List<ITask>
 {
     new SimpleTask("Buy groceries"),
     new SimpleTask("Email professor"),
+    new TimedTask("Study algorithms", 45)
 };
 
 foreach (var task in tasks)
@@ -17,4 +18,5 @@ foreach (var task in tasks)
 {
     task.Display();
 }
+
 

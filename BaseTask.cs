@@ -16,5 +16,5 @@ public abstract class BaseTask : ITask
     }
 
     public abstract void Display();
-    
+
 }
